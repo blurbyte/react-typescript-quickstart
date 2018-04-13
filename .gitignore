@@ -6,6 +6,7 @@
 
 # production
 /dist
+/.fusebox
 
 # misc
 .DS_Store
