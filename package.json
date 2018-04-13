@@ -72,6 +72,7 @@
     ]
   },
   "jest": {
+    "testEnvironment": "node",
     "setupFiles": [
       "<rootDir>/tools/enzymeSetup.ts"
     ],
