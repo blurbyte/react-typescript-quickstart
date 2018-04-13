@@ -1,10 +1,7 @@
 import * as React from 'react';
 
-export interface AppProps {
-  children?: React.ReactNode;
-}
-
-class App extends React.Component<AppProps> {
+// In this case Props and State are automatically initialized to {}
+class App extends React.Component {
   render() {
     return <div>Hello TypeScript!</div>;
   }
