@@ -46,8 +46,11 @@ context(class {
 // Removing dist directory
 task('clean', () => src('dist').clean('dist').exec());
 
+// Moving content of /public directory to /dist
+task('copy', () => src('**/**.**', { base: 'public' }).dest('dist').exec());
+
 // Default task, ran when no other is specified
-task('default', ['clean'], async context => {
+task('default', ['clean', 'copy'], async context => {
   const fuse = context.getConfig();
 
   fuse.dev({
@@ -61,7 +64,7 @@ task('default', ['clean'], async context => {
 });
 
 // Production build task with all optimizations enabled, such us uglify and hashed filenames
-task('build', ['clean'], async context => {
+task('build', ['clean', 'copy'], async context => {
   context.isProduction = true;
   const fuse = context.getConfig();
 
