@@ -2,6 +2,7 @@
 	"recommendations": [
     "formulahendry.auto-close-tag",
     "EditorConfig.editorconfig",
-    "CoenraadS.bracket-pair-colorizer"
+    "CoenraadS.bracket-pair-colorizer",
+    "eg2.tslint"
 	]
 }
