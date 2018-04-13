@@ -1,3 +1,4 @@
 # Welcome to React Typescript Quickstart
+[![Build Status](https://travis-ci.org/blurbyte/react-typescript-quickstart.svg?branch=master)](https://travis-ci.org/blurbyte/react-typescript-quickstart)
 
-React Quickstart is simple starting kit for developing web applications, but with TypeScript.
+This is a simple starting kit for developing React web applications, but with TypeScript.
