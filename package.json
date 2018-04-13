@@ -5,6 +5,9 @@
   "description": "Super simple React starter kit, but with TypeScript.",
   "scripts": {
     "start": "node fuse",
+    "test": "jest",
+    "test:watch": "npm run test -- --watch",
+    "test:update": "npm run test -- -u",
     "lint": "tslint --format stylish \"src/**/*.{ts,tsx}\"",
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
     "precommit": "lint-staged"
@@ -26,24 +29,32 @@
   },
   "author": "blurbyte",
   "license": "MIT",
+  "dependencies": {
+    "react": "16.3.1",
+    "react-dom": "16.3.1"
+  },
   "devDependencies": {
+    "@types/enzyme": "3.1.9",
+    "@types/enzyme-adapter-react-16": "1.0.2",
+    "@types/jest": "22.2.3",
     "@types/node": "9.6.4",
     "@types/react": "16.3.10",
     "@types/react-dom": "16.0.5",
+    "enzyme": "3.3.0",
+    "enzyme-adapter-react-16": "1.1.1",
+    "enzyme-to-json": "3.3.3",
     "fuse-box": "3.2.1",
     "husky": "0.14.3",
+    "jest": "22.4.3",
     "lint-staged": "7.0.4",
     "opn": "5.3.0",
     "prettier": "1.12.0",
+    "ts-jest": "22.4.2",
     "tslib": "1.9.0",
     "tslint": "5.9.1",
     "tslint-config-prettier": "1.10.0",
     "tslint-react": "3.5.1",
     "typescript": "2.8.1"
-  },
-  "dependencies": {
-    "react": "16.3.1",
-    "react-dom": "16.3.1"
   },
   "prettier": {
     "singleQuote": true,
@@ -55,6 +66,30 @@
     "**/*.{ts,tsx}": [
       "prettier --write",
       "git add"
+    ]
+  },
+  "jest": {
+    "setupFiles": [
+      "<rootDir>/tools/enzymeSetup.ts"
+    ],
+    "transform": {
+      ".(ts|tsx)": "ts-jest"
+    },
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.js$"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json"
+    ],
+    "testMatch": [
+      "<rootDir>/**/?(*.)test.ts?(x)"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
     ]
   }
 }
