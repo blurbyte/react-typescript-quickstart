@@ -10,6 +10,7 @@
     "test:watch": "npm run test -- --watch",
     "test:update": "npm run test -- -u",
     "lint": "tslint --format stylish \"src/**/*.{ts,tsx}\"",
+    "typecheck": "tsc --pretty --noEmit",
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
     "precommit": "lint-staged"
   },
