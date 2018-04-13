@@ -5,6 +5,7 @@
   "description": "Super simple React starter kit, but with TypeScript.",
   "scripts": {
     "start": "node fuse",
+    "build": "node fuse build",
     "test": "jest",
     "test:watch": "npm run test -- --watch",
     "test:update": "npm run test -- -u",
@@ -54,7 +55,9 @@
     "tslint": "5.9.1",
     "tslint-config-prettier": "1.10.0",
     "tslint-react": "3.5.1",
-    "typescript": "2.8.1"
+    "typescript": "2.8.1",
+    "uglify-es": "3.3.9",
+    "uglify-js": "3.3.21"
   },
   "prettier": {
     "singleQuote": true,
