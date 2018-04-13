@@ -5,7 +5,9 @@
   "description": "Super simple React starter kit, but with TypeScript.",
   "scripts": {
     "start": "node fuse",
-    "lint": "tslint --format stylish \"src/**/*.{ts,tsx}\""
+    "lint": "tslint --format stylish \"src/**/*.{ts,tsx}\"",
+    "format": "prettier --write \"src/**/*.{ts,tsx}\"",
+    "precommit": "lint-staged"
   },
   "repository": {
     "type": "git",
@@ -29,14 +31,30 @@
     "@types/react": "16.3.10",
     "@types/react-dom": "16.0.5",
     "fuse-box": "3.2.1",
+    "husky": "0.14.3",
+    "lint-staged": "7.0.4",
     "opn": "5.3.0",
+    "prettier": "1.12.0",
     "tslib": "1.9.0",
     "tslint": "5.9.1",
+    "tslint-config-prettier": "1.10.0",
     "tslint-react": "3.5.1",
     "typescript": "2.8.1"
   },
   "dependencies": {
     "react": "16.3.1",
     "react-dom": "16.3.1"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "none",
+    "printWidth": 120,
+    "parser": "typescript"
+  },
+  "lint-staged": {
+    "**/*.{ts,tsx}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
