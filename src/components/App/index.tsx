@@ -1,9 +1,6 @@
 import * as React from 'react';
-import styled from '@styles/styledComponents';
 
-const Wrapper = styled.h1`
-  background-color: red;
-`;
+import Wrapper from './Wrapper';
 
 // In this case Props and State are automatically initialized to {}
 class App extends React.Component {
