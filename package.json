@@ -97,6 +97,9 @@
     ],
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
-    ]
+    ],
+    "moduleNameMapper": {
+      "^@styles/(.*)": "<rootDir>/src/styles/$1"
+    }
   }
 }

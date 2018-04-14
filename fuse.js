@@ -11,6 +11,8 @@ context(class {
       output: 'dist/$name.js',
       cache: !this.isProduction,
       sourceMaps: !this.isProduction,
+      // Shortcut for styled directory
+      // Additional tsconfig paths and jest moduleNameMapper required
       alias: {
         "@styles": "~/styles/"
       },
