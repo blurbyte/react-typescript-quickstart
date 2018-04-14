@@ -3,6 +3,7 @@
     "formulahendry.auto-close-tag",
     "EditorConfig.editorconfig",
     "CoenraadS.bracket-pair-colorizer",
-    "eg2.tslint"
+    "eg2.tslint",
+    "jpoissonnier.vscode-styled-components"
 	]
 }
