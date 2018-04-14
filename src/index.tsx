@@ -1,3 +1,6 @@
+// Application entry point
+
+import '@styles/sanitize.css';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 

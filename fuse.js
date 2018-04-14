@@ -1,4 +1,4 @@
-const { FuseBox, WebIndexPlugin, QuantumPlugin } = require('fuse-box');
+const { FuseBox, WebIndexPlugin, QuantumPlugin, CSSPlugin } = require('fuse-box');
 const { src, task, exec, context } = require('fuse-box/sparky');
 
 // Context availible for all tasks
@@ -11,11 +11,15 @@ context(class {
       output: 'dist/$name.js',
       cache: !this.isProduction,
       sourceMaps: !this.isProduction,
+      alias: {
+        "@styles": "~/styles/"
+      },
       plugins: [
         WebIndexPlugin({
           template: 'public/index.html',
           title: 'React TypeScript Quickstart'
         }),
+        CSSPlugin(),
         this.isProduction && QuantumPlugin({
           polyfills: ['Promise'],
           treeshake: true,
