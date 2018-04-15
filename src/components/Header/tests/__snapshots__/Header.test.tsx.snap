@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Wrapper renders correctly 1`] = `
+<styled.header>
+  <Logo
+    fill="#4a6cbb"
+    height={25}
+    width={120}
+  />
+  <styled.p>
+    React TypeScript Quickstart
+  </styled.p>
+</styled.header>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Banner renders correctly 1`] = `
+.c0 {
+  grid-column: 1 / -1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 6.4rem;
+  padding: 0 6.4rem;
+  border-bottom: 1px solid #908e89;
+  box-shadow: 0 4px 4px -1px rgba(40,40,40,0.1);
+}
+
+<header
+  className="c0"
+/>
+`;
