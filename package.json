@@ -76,7 +76,7 @@
     ]
   },
   "jest": {
-    "testEnvironment": "node",
+    "testEnvironment": "jsdom",
     "verbose": true,
     "setupTestFrameworkScriptFile": "<rootDir>/tools/testSetup.ts",
     "transform": {
