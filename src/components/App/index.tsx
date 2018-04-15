@@ -1,11 +1,16 @@
 import * as React from 'react';
 
-import Wrapper from './Wrapper';
+import Header from '../Header';
+import Content from './Content';
 
 // In this case Props and State are automatically initialized to {}
 class App extends React.Component {
   render() {
-    return <Wrapper>Hello TypeScript!</Wrapper>;
+    return (
+      <Content>
+        <Header />
+      </Content>
+    );
   }
 }
 
