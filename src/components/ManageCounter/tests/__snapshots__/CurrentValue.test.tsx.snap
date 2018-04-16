@@ -17,7 +17,7 @@ exports[`CurrentValue renders correctly 1`] = `
   background: #4a6cbb;
   padding: 0 1.4rem;
   border-radius: 6px;
-  min-width: 6rem;
+  min-width: 8rem;
   margin: 1rem 0;
 }
 

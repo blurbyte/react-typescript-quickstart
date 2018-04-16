@@ -6,12 +6,15 @@ exports[`ManageCounter renders correctly 1`] = `
     Manage Counter
   </styled.h1>
   <styled.p>
-    It's a strigtforward counter example built using popular 
+    A strigtforward counter example built using popular 
     <em>
       render props
     </em>
      pattern.
   </styled.p>
-  <Counter />
+  <Counter
+    initialCount={10}
+    step={2}
+  />
 </styled.section>
 `;
