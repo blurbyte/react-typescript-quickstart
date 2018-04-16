@@ -8,6 +8,7 @@ import Section from '../Section';
 import CurrentValue from './CurrentValue';
 import Panel from './Panel';
 import PanelRow from './PanelRow';
+import PanelRowGrid from './PanelRowGrid';
 import Description from './Description';
 
 class ManageCounter extends React.Component {
@@ -29,12 +30,12 @@ class ManageCounter extends React.Component {
                 <Description>Current Counter Value</Description>
                 <CurrentValue>{count}</CurrentValue>
               </PanelRow>
-              <PanelRow>
-                <Button onClick={increase}>increase</Button>
+              <PanelRowGrid>
+                <Button onClick={increase}>Increase</Button>
                 <Button disabled={count <= initialCount} onClick={decrease}>
-                  decrease
+                  Decrease
                 </Button>
-              </PanelRow>
+              </PanelRowGrid>
             </Panel>
           )}
         </Counter>

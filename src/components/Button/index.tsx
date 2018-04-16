@@ -9,7 +9,6 @@ const Button = styled.button`
   font-weight: 700;
   font-size: 1.4rem;
   text-transform: uppercase;
-  width: 19.4rem;
   height: 3.6rem;
   cursor: pointer;
   border-radius: 6px;

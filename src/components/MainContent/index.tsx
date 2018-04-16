@@ -8,6 +8,7 @@ const MainContent = styled(Article)`
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
   padding-bottom: 6rem;
+  padding-top: 8rem;
 `;
 
 export default MainContent;
