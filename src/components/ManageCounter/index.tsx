@@ -11,7 +11,12 @@ import PanelRow from './PanelRow';
 import PanelRowGrid from './PanelRowGrid';
 import Description from './Description';
 
-class ManageCounter extends React.Component {
+export interface ManageCounterProps {
+  initialCount?: number;
+  step?: number;
+}
+
+class ManageCounter extends React.Component<ManageCounterProps, {}> {
   render() {
     return (
       <Section>
@@ -19,7 +24,7 @@ class ManageCounter extends React.Component {
         <MainParagraph>
           A strigtforward counter example built using popular <em>render props</em> pattern.
         </MainParagraph>
-        <Counter initialCount={10} step={2}>
+        <Counter initialCount={this.props.initialCount} step={this.props.step}>
           {({ count, initialCount, increase, decrease }) => (
             <Panel>
               <PanelRow>

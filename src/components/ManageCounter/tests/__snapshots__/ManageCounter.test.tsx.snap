@@ -13,8 +13,8 @@ exports[`ManageCounter renders correctly 1`] = `
      pattern.
   </styled.p>
   <Counter
-    initialCount={10}
-    step={2}
+    initialCount={12}
+    step={4}
   />
 </styled.section>
 `;
