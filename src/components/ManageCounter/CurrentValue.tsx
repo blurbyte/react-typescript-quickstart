@@ -11,7 +11,7 @@ const CurrentValue = styled.p`
   background: ${Colors.blue};
   padding: 0 1.4rem;
   border-radius: 6px;
-  min-width: 6rem;
+  min-width: 8rem;
   margin: 1rem 0;
 `;
 

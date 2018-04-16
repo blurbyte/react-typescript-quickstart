@@ -6,14 +6,16 @@ const Wrapper = styled.div`
   flex-shrink: 0;
 `;
 
-export interface LogoProps {
+export type LogoProps = Partial<LogoDefaultProps>;
+
+export interface LogoDefaultProps {
   width: number;
   height: number;
   fill: string;
 }
 
-class Logo extends React.Component<Partial<LogoProps>> {
-  static defaultProps: LogoProps = {
+class Logo extends React.Component<LogoProps> {
+  static defaultProps: LogoDefaultProps = {
     width: 120,
     height: 25,
     fill: Colors.blue

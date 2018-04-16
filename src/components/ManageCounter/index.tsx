@@ -20,18 +20,20 @@ class ManageCounter extends React.Component {
       <Section>
         <Headline>Manage Counter</Headline>
         <MainParagraph>
-          It's a strigtforward counter example built using popular <em>render props</em> pattern.
+          A strigtforward counter example built using popular <em>render props</em> pattern.
         </MainParagraph>
-        <Counter>
-          {({ value, increase, decrease }) => (
+        <Counter initialCount={10} step={2}>
+          {({ count, initialCount, increase, decrease }) => (
             <Panel>
               <PanelRow>
                 <Description>Current Counter Value</Description>
-                <CurrentValue>{value}</CurrentValue>
+                <CurrentValue>{count}</CurrentValue>
               </PanelRow>
               <PanelRow>
                 <Button onClick={increase}>increase</Button>
-                <Button onClick={decrease}>decrease</Button>
+                <Button disabled={count <= initialCount} onClick={decrease}>
+                  decrease
+                </Button>
               </PanelRow>
             </Panel>
           )}
