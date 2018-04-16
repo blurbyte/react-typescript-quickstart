@@ -15,7 +15,7 @@ export interface LogoDefaultProps {
 }
 
 class Logo extends React.Component<LogoProps> {
-  static defaultProps: LogoDefaultProps = {
+  static readonly defaultProps: LogoDefaultProps = {
     width: 120,
     height: 25,
     fill: Colors.blue

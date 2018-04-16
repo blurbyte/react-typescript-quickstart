@@ -23,12 +23,12 @@ type CounterRenderProps = CounterState & {
 // Using bang operator (!) to explicitly tell compiler default props won't be undefined
 // Should be updated when defaultProps will be fixed in React type defs
 class Counter extends React.Component<CounterProps, CounterState> {
-  static defaultProps: CounterDefaultProps = {
+  static readonly defaultProps: CounterDefaultProps = {
     initialCount: 0,
     step: 1
   };
 
-  state = {
+  readonly state = {
     count: this.props.initialCount!
   };
 

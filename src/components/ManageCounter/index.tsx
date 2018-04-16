@@ -12,10 +12,6 @@ import PanelRowGrid from './PanelRowGrid';
 import Description from './Description';
 
 class ManageCounter extends React.Component {
-  shouldComponentUpdate() {
-    return false;
-  }
-
   render() {
     return (
       <Section>
