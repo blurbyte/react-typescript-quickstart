@@ -4,6 +4,9 @@ exports[`ProjectTitle renders correctly 1`] = `
 .c0 {
   text-transform: uppercase;
   cursor: default;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   border-left: 1px solid #908e89;
   margin: 0;
   margin-left: 1.4rem;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content renders correctly 1`] = `
+.c0 {
+  padding: 0 6.4rem;
+  max-width: 144rem;
+  margin: 0 auto;
+}
+
+@media (max-width:62.5em) {
+  .c0 {
+    padding: 0 3.2rem;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;

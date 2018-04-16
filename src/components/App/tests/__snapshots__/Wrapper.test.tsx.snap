@@ -2,12 +2,10 @@
 
 exports[`Wrapper renders correctly 1`] = `
 .c0 {
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-gap: 20px;
+  width: 100%;
 }
 
-<section
+<div
   className="c0"
 />
 `;

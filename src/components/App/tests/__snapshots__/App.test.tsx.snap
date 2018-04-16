@@ -1,7 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App renders correctly 1`] = `
-<styled.section>
+<styled.div>
   <Header />
-</styled.section>
+  <Styled(styled.article)>
+    <div>
+      Hello
+    </div>
+  </Styled(styled.article)>
+</styled.div>
 `;
