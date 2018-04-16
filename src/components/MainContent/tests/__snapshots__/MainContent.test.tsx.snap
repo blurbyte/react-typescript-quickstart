@@ -5,6 +5,7 @@ exports[`MainContent renders correctly 1`] = `
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-gap: 2rem;
+  padding-bottom: 6rem;
 }
 
 <styled.article

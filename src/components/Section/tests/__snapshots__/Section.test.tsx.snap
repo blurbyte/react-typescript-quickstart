@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Section renders correctly 1`] = `
+.c0 {
+  grid-column: 1 / -1;
+}
+
+<section
+  className="c0"
+/>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Panel renders correctly 1`] = `
+.c0 {
+  width: 40rem;
+  border-top: 1px solid #908e89;
+  margin-top: 3rem;
+}
+
+<div
+  className="c0"
+/>
+`;
