@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import MainParagraph from '../MainParagraph';
 import Headline from '../Headline';
-import Wrapper from './Wrapper';
+import Section from '../Section';
 
 class Overview extends React.Component {
   shouldComponentUpdate() {
@@ -11,14 +11,14 @@ class Overview extends React.Component {
 
   render() {
     return (
-      <Wrapper>
+      <Section>
         <Headline>Welcome to React TypeScript Quickstart</Headline>
         <MainParagraph>
           A simple React starter kit, but with TypeScript. It takes care of initial developement environment setup and
           puts everything to use in simple example. Notable technologies used: React, TypeScript, FuseBox, TSLint and
           styled-components. Formatted with prettier.
         </MainParagraph>
-      </Wrapper>
+      </Section>
     );
   }
 }
