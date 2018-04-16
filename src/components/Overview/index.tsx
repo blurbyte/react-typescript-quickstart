@@ -1,8 +1,8 @@
 import * as React from 'react';
 
+import MainParagraph from '../MainParagraph';
 import Headline from '../Headline';
 import Wrapper from './Wrapper';
-import MainParagraph from './MainParagraph';
 
 class Overview extends React.Component {
   shouldComponentUpdate() {
