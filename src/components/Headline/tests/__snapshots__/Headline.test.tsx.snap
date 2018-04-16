@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Headline renders correctly 1`] = `
+.c0 {
+  font-size: 5rem;
+  font-weight: 300;
+  -webkit-letter-spacing: -0.2rem;
+  -moz-letter-spacing: -0.2rem;
+  -ms-letter-spacing: -0.2rem;
+  letter-spacing: -0.2rem;
+  color: #4a6cbb;
+  border-top: 2px solid #908e89;
+  padding-top: 1rem;
+  margin-bottom: 2.4rem;
+  line-height: 1.2;
+}
+
+<h1
+  className="c0"
+/>
+`;

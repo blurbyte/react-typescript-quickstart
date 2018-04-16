@@ -6,6 +6,10 @@ import Logo from './Logo';
 import ProjectTitle from './ProjectTitle';
 
 class Header extends React.Component {
+  shouldComponentUpdate() {
+    return false;
+  }
+
   render() {
     return (
       <Banner>

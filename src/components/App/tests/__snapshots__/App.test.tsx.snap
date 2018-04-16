@@ -4,9 +4,7 @@ exports[`App renders correctly 1`] = `
 <styled.div>
   <Header />
   <Styled(styled.article)>
-    <div>
-      Hello
-    </div>
+    <Overview />
   </Styled(styled.article)>
 </styled.div>
 `;
