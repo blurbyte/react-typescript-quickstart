@@ -43,7 +43,7 @@ describe('ManageCounter', () => {
     ).toEqual('12');
   });
 
-  it('increases decreases value', () => {
+  it('decreases counter value when it is greater than initial one', () => {
     const wrapper = mount(<ManageCounter {...props} />);
     wrapper
       .find('button')
