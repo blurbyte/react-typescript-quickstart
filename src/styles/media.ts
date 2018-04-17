@@ -6,6 +6,7 @@ import { SimpleInterpolation, InterpolationValue } from 'styled-components';
 export interface Devices {
   desktop: number;
   tablet: number;
+  phone: number;
   [prop: string]: number;
 }
 
@@ -19,7 +20,8 @@ type Media = {
 // Devices breakpoints
 export const devices: Devices = {
   desktop: 1000,
-  tablet: 700
+  tablet: 700,
+  phone: 420
 };
 
 const media: Media = Object.keys(devices).reduce(

@@ -9,6 +9,10 @@ const Content = styled.div`
   ${media.desktop`
     padding: 0 3.2rem;
   `};
+
+  ${media.phone`
+    padding: 0 1.6rem;
+  `};
 `;
 
 export default Content;
