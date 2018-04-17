@@ -6,7 +6,7 @@ exports[`App renders correctly 1`] = `
   <Styled(styled.article)>
     <Overview />
     <ManageCounter
-      initialCount={10}
+      initialCount={4}
       step={2}
     />
   </Styled(styled.article)>
