@@ -5,8 +5,7 @@ exports[`Wrapper renders correctly 1`] = `
   border-top: 2px solid #908e89;
   border-collapse: collapse;
   color: #444444;
-  margin-top: 1rem;
-  margin-bottom: 6rem;
+  margin: 1rem 0;
   width: 100%;
 }
 

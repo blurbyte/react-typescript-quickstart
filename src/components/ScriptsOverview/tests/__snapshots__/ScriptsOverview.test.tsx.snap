@@ -1,18 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ModulesOverview renders correctly 1`] = `
+exports[`ScriptsOverview renders correctly 1`] = `
 <section>
   <styled.h2>
-    Comprehensive modules overview
+    NPM Scripts overview
   </styled.h2>
   <styled.p>
-    There are a lot of interesting tech choices:
+    Just a grasp of what could be found in package.json:
   </styled.p>
   <Table>
     <thead>
       <tr>
         <Styled(styled.th)>
-          Related modules
+          Script name
         </Styled(styled.th)>
         <Styled(styled.th)>
           Description
@@ -22,66 +22,66 @@ exports[`ModulesOverview renders correctly 1`] = `
     <tbody>
       <styled.tr>
         <styled.td>
-          react, react-dom
+          start
         </styled.td>
         <styled.td>
-          Reusable components for web applications
-        </styled.td>
-      </styled.tr>
-      <styled.tr>
-        <styled.td>
-          typescript
-        </styled.td>
-        <styled.td>
-          JavaScript but with types (and more)
+          Launches app in development mode
         </styled.td>
       </styled.tr>
       <styled.tr>
         <styled.td>
-          fusebox
+          build
         </styled.td>
         <styled.td>
-          Great bundler with simple configuration shipped with handy task manager
-        </styled.td>
-      </styled.tr>
-      <styled.tr>
-        <styled.td>
-          tslint
-        </styled.td>
-        <styled.td>
-          Reports TypeScript and React syntax errors
+          Creates production, ready to deploy build of the app
         </styled.td>
       </styled.tr>
       <styled.tr>
         <styled.td>
-          styled-components
+          test
         </styled.td>
         <styled.td>
-          Scoped components CSS styles, how awesome is it?
-        </styled.td>
-      </styled.tr>
-      <styled.tr>
-        <styled.td>
-          jest
-        </styled.td>
-        <styled.td>
-          Automated test framework with built in assertion library
+          Runs whole test suite
         </styled.td>
       </styled.tr>
       <styled.tr>
         <styled.td>
-          enzyme
+          test:watch
         </styled.td>
         <styled.td>
-          React testing utilities
+          Watch files for changes and rerun related tests
         </styled.td>
       </styled.tr>
       <styled.tr>
         <styled.td>
-          prettier, lint-staged
+          test:update
         </styled.td>
         <styled.td>
-          Enforces consistent coding style
+          Updates all test snapshots
+        </styled.td>
+      </styled.tr>
+      <styled.tr>
+        <styled.td>
+          lint
+        </styled.td>
+        <styled.td>
+          Checks the whole project for linting errors
+        </styled.td>
+      </styled.tr>
+      <styled.tr>
+        <styled.td>
+          typecheck
+        </styled.td>
+        <styled.td>
+          Runs TypeScript compiler to find type errors
+        </styled.td>
+      </styled.tr>
+      <styled.tr>
+        <styled.td>
+          format
+        </styled.td>
+        <styled.td>
+          Formats code with prettier
         </styled.td>
       </styled.tr>
     </tbody>

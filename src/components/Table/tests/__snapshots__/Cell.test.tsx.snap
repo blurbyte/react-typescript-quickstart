@@ -11,6 +11,10 @@ exports[`Cell renders correctly 1`] = `
   border-right: 1px solid #908e89;
 }
 
+.c0 strong {
+  font-weight: 700;
+}
+
 <td
   className="c0"
 />

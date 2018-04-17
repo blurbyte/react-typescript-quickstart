@@ -10,6 +10,11 @@ exports[`CurrentValue renders correctly 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 1;
   height: 3.6rem;
   font-size: 2.4rem;
   font-weight: 700;
