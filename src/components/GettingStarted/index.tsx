@@ -3,6 +3,7 @@ import * as React from 'react';
 import SecondaryHeadline from '../SecondaryHeadline';
 import Text from '../Text';
 import TextList from '../TextList';
+import ExternalLink from '../ExternalLink';
 
 class GettingStarted extends React.Component {
   shouldComponentUpdate() {
@@ -43,6 +44,10 @@ class GettingStarted extends React.Component {
             files in <strong>/dist</strong> directory.
           </TextList.Item>
         </TextList>
+        <Text>
+          Besides that app is actually live at{' '}
+          <ExternalLink href="https://reactquickstart.surge.sh">reactquickstart.surge.sh</ExternalLink> 🚀.
+        </Text>
       </>
     );
   }
