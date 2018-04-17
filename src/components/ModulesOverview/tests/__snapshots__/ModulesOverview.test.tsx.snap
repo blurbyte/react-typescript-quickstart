@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModulesOverview renders correctly 1`] = `
+<section>
+  <styled.h2>
+    Comprehensive modules overview
+  </styled.h2>
+  <styled.p>
+    There are a lot of interesting tech choices:
+  </styled.p>
+  <Table>
+    <thead>
+      <tr>
+        <Styled(styled.th)>
+          Related modules
+        </Styled(styled.th)>
+        <Styled(styled.th)>
+          Description
+        </Styled(styled.th)>
+      </tr>
+    </thead>
+    <tbody>
+      <styled.tr>
+        <styled.td>
+          react, react-dom
+        </styled.td>
+        <styled.td>
+          Reusable components for web applications
+        </styled.td>
+      </styled.tr>
+    </tbody>
+  </Table>
+</section>
+`;

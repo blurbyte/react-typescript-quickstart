@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Row renders correctly 1`] = `
+.c0 {
+  background: rgba(40,40,40,0.02);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.c0:hover {
+  background: rgba(74,108,187,0.2);
+}
+
+<tr
+  className="c0"
+/>
+`;

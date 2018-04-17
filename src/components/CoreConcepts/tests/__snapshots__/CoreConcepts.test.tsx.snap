@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`CoreConcepts renders correctly 1`] = `
-<React.Fragment>
+<section>
   <styled.h2>
     What will you learn?
   </styled.h2>
@@ -57,5 +57,5 @@ exports[`CoreConcepts renders correctly 1`] = `
       </strong>
     </Styled(styled.li)>
   </TextList>
-</React.Fragment>
+</section>
 `;

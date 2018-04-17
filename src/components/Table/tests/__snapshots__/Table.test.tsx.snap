@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table renders correctly 1`] = `<styled.table />`;
+
+exports[`Table renders correctly Cell 1`] = `
+.c0 {
+  font-family: Helvetica,Arial,sans-serif;
+  text-align: left;
+  padding: 1.4rem;
+}
+
+.c0:first-child {
+  border-right: 1px solid #908e89;
+}
+
+<td
+  className="c0"
+/>
+`;
+
+exports[`Table renders correctly HeadeCell 1`] = `
+.c0 {
+  font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  background: rgba(40,40,40,0.1);
+}
+
+<styled.th
+  className="c0"
+/>
+`;
+
+exports[`Table renders correctly Row 1`] = `
+.c0 {
+  background: rgba(40,40,40,0.02);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.c0:hover {
+  background: rgba(74,108,187,0.2);
+}
+
+<tr
+  className="c0"
+/>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cell renders correctly 1`] = `
+.c0 {
+  font-family: Helvetica,Arial,sans-serif;
+  text-align: left;
+  padding: 1.4rem;
+}
+
+.c0:first-child {
+  border-right: 1px solid #908e89;
+}
+
+<td
+  className="c0"
+/>
+`;
