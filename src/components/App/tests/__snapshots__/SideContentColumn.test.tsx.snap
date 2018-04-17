@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideContentColumn renders correctly 1`] = `
+.c0 {
+  grid-column: -2 / -1;
+}
+
+@media (max-width:62.5em) {
+  .c0 {
+    grid-column: 1 / -1;
+  }
+}
+
+<section
+  className="c0"
+/>
+`;
