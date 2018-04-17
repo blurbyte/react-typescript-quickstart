@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact renders correctly 1`] = `
+<React.Fragment>
+  <styled.h2>
+    Check it out!
+  </styled.h2>
+  <TextList
+    simple={true}
+  >
+    <Styled(styled.li)>
+      Check out my other projects on 
+      <styled.a
+        href="https://github.com/blurbyte"
+      >
+        GitHub
+      </styled.a>
+    </Styled(styled.li)>
+    <Styled(styled.li)>
+      Contact me via 
+      <styled.a
+        href="https://twitter.com/blurbyte"
+      >
+        Twitter
+      </styled.a>
+    </Styled(styled.li)>
+    <Styled(styled.li)>
+      Visit 
+      <styled.a
+        href="http://blurbyte.com"
+      >
+        blurbyte.com
+      </styled.a>
+    </Styled(styled.li)>
+  </TextList>
+</React.Fragment>
+`;

@@ -16,13 +16,45 @@ exports[`CoreConcepts renders correctly 1`] = `
       How to organize file structure of your project
     </Styled(styled.li)>
     <Styled(styled.li)>
+      How to implement and test 
+      <strong>
+        render props
+      </strong>
+       component — 
+      <em>
+        src/components/Counter
+      </em>
+       
+      and 
+      <em>
+        src/components/ManageCounter
+      </em>
+    </Styled(styled.li)>
+    <Styled(styled.li)>
+      How to create 
+      <strong>
+        compound
+      </strong>
+       component — 
+      <em>
+        src/components/TextList
+      </em>
+    </Styled(styled.li)>
+    <Styled(styled.li)>
       How to write unit and integration tests
     </Styled(styled.li)>
     <Styled(styled.li)>
-      How to take advantage of 
-      <em>
+      How to setup strightforward CI/CD pipeline with TravisCI and Surge
+    </Styled(styled.li)>
+    <Styled(styled.li)>
+      How to create fully responsive layout with 
+      <strong>
+        css grid
+      </strong>
+       and 
+      <strong>
         styled-components
-      </em>
+      </strong>
     </Styled(styled.li)>
   </TextList>
 </React.Fragment>

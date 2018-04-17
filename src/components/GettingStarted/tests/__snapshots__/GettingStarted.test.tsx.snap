@@ -82,5 +82,15 @@ exports[`CoreConcepts renders correctly 1`] = `
        directory.
     </Styled(styled.li)>
   </TextList>
+  <styled.p>
+    Besides that app is actually live at
+     
+    <styled.a
+      href="https://reactquickstart.surge.sh"
+    >
+      reactquickstart.surge.sh
+    </styled.a>
+     🚀.
+  </styled.p>
 </React.Fragment>
 `;

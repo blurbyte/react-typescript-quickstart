@@ -8,4 +8,9 @@ describe('UnorderedList', () => {
     const wrapper = shallow(<UnorderedList />);
     expect(wrapper).toMatchSnapshot();
   });
+
+  it('renders correctly simple list', () => {
+    const wrapper = shallow(<UnorderedList simple />);
+    expect(wrapper).toMatchSnapshot();
+  });
 });

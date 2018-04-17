@@ -14,6 +14,7 @@ exports[`App renders correctly 1`] = `
     </styled.section>
     <styled.section>
       <CoreConcepts />
+      <Contact />
     </styled.section>
   </Styled(styled.article)>
 </styled.div>
