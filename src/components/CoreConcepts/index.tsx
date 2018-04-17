@@ -11,7 +11,7 @@ class CoreConcepts extends React.Component {
 
   render() {
     return (
-      <>
+      <section>
         <SecondaryHeadline>What will you learn?</SecondaryHeadline>
         <Text>By inspecting source code of this demo application you can get a good grasp of:</Text>
         <TextList>
@@ -30,7 +30,7 @@ class CoreConcepts extends React.Component {
             How to create fully responsive layout with <strong>css grid</strong> and <strong>styled-components</strong>
           </TextList.Item>
         </TextList>
-      </>
+      </section>
     );
   }
 }

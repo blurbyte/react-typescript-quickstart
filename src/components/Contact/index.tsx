@@ -11,7 +11,7 @@ class Contact extends React.Component {
 
   render() {
     return (
-      <>
+      <section>
         <SecondaryHeadline>Check it out!</SecondaryHeadline>
         <TextList simple>
           <TextList.Item>
@@ -24,7 +24,7 @@ class Contact extends React.Component {
             Visit <ExternalLink href="http://blurbyte.com">blurbyte.com</ExternalLink>
           </TextList.Item>
         </TextList>
-      </>
+      </section>
     );
   }
 }

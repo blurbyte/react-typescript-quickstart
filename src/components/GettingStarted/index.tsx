@@ -12,7 +12,7 @@ class GettingStarted extends React.Component {
 
   render() {
     return (
-      <>
+      <section>
         <SecondaryHeadline>Getting started!</SecondaryHeadline>
         <Text>Just follow a few easy steps to set up a project:</Text>
         <TextList ordered>
@@ -48,7 +48,7 @@ class GettingStarted extends React.Component {
           Besides that app is actually live at{' '}
           <ExternalLink href="https://reactquickstart.surge.sh">reactquickstart.surge.sh</ExternalLink> 🚀.
         </Text>
-      </>
+      </section>
     );
   }
 }
