@@ -13,6 +13,12 @@ exports[`Content renders correctly 1`] = `
   }
 }
 
+@media (max-width:26.25em) {
+  .c0 {
+    padding: 0 1.6rem;
+  }
+}
+
 <div
   className="c0"
 />

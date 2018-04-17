@@ -7,6 +7,12 @@ exports[`Panel renders correctly 1`] = `
   margin-top: 3rem;
 }
 
+@media (max-width:43.75em) {
+  .c0 {
+    width: 100%;
+  }
+}
+
 <div
   className="c0"
 />
