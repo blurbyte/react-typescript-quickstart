@@ -14,7 +14,7 @@ class App extends React.Component {
         <Header />
         <MainContent>
           <Overview />
-          <ManageCounter initialCount={10} step={2} />
+          <ManageCounter initialCount={4} step={2} />
         </MainContent>
       </Wrapper>
     );
