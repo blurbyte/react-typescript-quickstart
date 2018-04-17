@@ -4,6 +4,7 @@ import Header from '../Header';
 import Overview from '../Overview';
 import ManageCounter from '../ManageCounter';
 import GettingStarted from '../GettingStarted';
+import ScriptsOverview from '../ScriptsOverview';
 import ModulesOverview from '../ModulesOverview';
 import CoreConcepts from '../CoreConcepts';
 import Contact from '../Contact';
@@ -23,6 +24,7 @@ class App extends React.Component {
           <ManageCounter initialCount={10} step={2} />
           <MainContentColumn>
             <GettingStarted />
+            <ScriptsOverview />
             <ModulesOverview />
           </MainContentColumn>
           <SideContentColumn>
