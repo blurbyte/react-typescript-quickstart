@@ -19,13 +19,19 @@ injectGlobal`
     overflow-y: scroll;
   }
 
+  code {
+    font-family: 'Consolas', 'Courier New', Courier, monospace;
+    background: rgba(40, 40, 40, 0.1);
+    padding: 0 0.4rem;
+  }
+
   ::-moz-selection {
-    background: rgba(74,108,187,0.2);
+    background: rgba(74, 108, 187, 0.2);
     color: inherit;
   }
 
   ::selection {
-    background: rgba(74,108,187,0.2);
+    background: rgba(74, 108, 187, 0.2);
     color: inherit;
   }
 `;
