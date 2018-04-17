@@ -8,7 +8,7 @@ const Headline = styled.h1`
   color: ${Colors.blue};
   border-top: 2px solid ${Colors.gray};
   padding-top: 1rem;
-  margin-top: 1rem;
+  margin-top: 3rem;
   margin-bottom: 2.4rem;
   line-height: 1.2;
 `;

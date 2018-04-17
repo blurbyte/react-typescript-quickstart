@@ -4,15 +4,15 @@ exports[`MainContent renders correctly 1`] = `
 .c0 {
   display: grid;
   grid-template-columns: repeat(2,1fr) minmax(30rem,1fr);
-  grid-gap: 3rem;
+  grid-gap: 0 3rem;
   padding-bottom: 6rem;
-  padding-top: 12rem;
+  padding-top: 9rem;
 }
 
 @media (max-width:43.75em) {
   .c0 {
     grid-template-columns: repeat(3,1fr);
-    padding-top: 9rem;
+    padding-top: 6rem;
   }
 }
 
