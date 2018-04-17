@@ -9,6 +9,12 @@ exports[`App renders correctly 1`] = `
       initialCount={10}
       step={2}
     />
+    <styled.section>
+      <GettingStarted />
+    </styled.section>
+    <styled.section>
+      <CoreConcepts />
+    </styled.section>
   </Styled(styled.article)>
 </styled.div>
 `;

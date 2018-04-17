@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoreConcepts renders correctly 1`] = `
+<React.Fragment>
+  <styled.h2>
+    What will you learn?
+  </styled.h2>
+  <styled.p>
+    By inspecting source code of this demo application you can get a good grasp of:
+  </styled.p>
+  <TextList>
+    <Styled(styled.li)>
+      How to set up TypeScript development environment for React web app
+    </Styled(styled.li)>
+    <Styled(styled.li)>
+      How to organize file structure of your project
+    </Styled(styled.li)>
+    <Styled(styled.li)>
+      How to write unit and integration tests
+    </Styled(styled.li)>
+    <Styled(styled.li)>
+      How to take advantage of 
+      <em>
+        styled-components
+      </em>
+    </Styled(styled.li)>
+  </TextList>
+</React.Fragment>
+`;

@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoreConcepts renders correctly 1`] = `
+<React.Fragment>
+  <styled.h2>
+    Getting started!
+  </styled.h2>
+  <styled.p>
+    Just follow a few easy steps to set up a project:
+  </styled.p>
+  <TextList
+    ordered={true}
+  >
+    <Styled(styled.li)>
+      Install 
+      <strong>
+        Node &gt; 8
+      </strong>
+      .
+    </Styled(styled.li)>
+    <Styled(styled.li)>
+      Install 
+      <strong>
+        Git
+      </strong>
+      .
+    </Styled(styled.li)>
+    <Styled(styled.li)>
+      Clone the repository 
+      <code>
+        git clone https:
+        //
+        github.com/blurbyte/react-typescript-quickstart
+      </code>
+      .
+    </Styled(styled.li)>
+    <Styled(styled.li)>
+      Install 
+      <em>
+        React Developer Tools
+      </em>
+       — provides insight about virtual DOM and components props and state.
+    </Styled(styled.li)>
+    <Styled(styled.li)>
+      Enter project folder and install all required modules with simple 
+      <code>
+        npm install
+      </code>
+       command.
+    </Styled(styled.li)>
+    <Styled(styled.li)>
+      Start demo app in 
+      <em>
+        development
+      </em>
+       mode 
+      <code>
+        npm start
+      </code>
+      . It will build a project, start webserver and open app in your browser 🙂.
+    </Styled(styled.li)>
+    <Styled(styled.li)>
+      All project files are placed under 
+      <strong>
+        /src
+      </strong>
+       folder.
+    </Styled(styled.li)>
+    <Styled(styled.li)>
+      To make a 
+      <em>
+        production
+      </em>
+       build run 
+      <code>
+        npm run build
+      </code>
+      , which will create ready to deploy static files in 
+      <strong>
+        /dist
+      </strong>
+       directory.
+    </Styled(styled.li)>
+  </TextList>
+</React.Fragment>
+`;

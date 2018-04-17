@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainContent renders correctly 1`] = `
+.c0 {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 3rem;
+  padding-bottom: 6rem;
+  padding-top: 12rem;
+}
+
+<styled.article
+  className="c0"
+/>
+`;

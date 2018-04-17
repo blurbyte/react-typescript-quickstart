@@ -7,6 +7,10 @@ exports[`Text renders correctly 1`] = `
   margin: 0.8rem 0;
 }
 
+.c0 strong {
+  font-weight: 700;
+}
+
 <p
   className="c0"
 />
