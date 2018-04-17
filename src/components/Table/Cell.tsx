@@ -9,6 +9,10 @@ const Cell = styled.td`
   &:first-child {
     border-right: 1px solid ${Colors.gray};
   }
+
+  & strong {
+    font-weight: 700;
+  }
 `;
 
 export default Cell;

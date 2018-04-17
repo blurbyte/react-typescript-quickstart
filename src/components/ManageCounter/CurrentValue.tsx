@@ -4,6 +4,8 @@ import { Colors } from '@styles/colors';
 const CurrentValue = styled.p`
   display: inline-flex;
   justify-content: center;
+  align-items: center;
+  line-height: 1;
   height: 3.6rem;
   font-size: 2.4rem;
   font-weight: 700;

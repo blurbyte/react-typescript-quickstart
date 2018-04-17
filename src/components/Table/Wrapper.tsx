@@ -5,8 +5,7 @@ const Wrapper = styled.table`
   border-top: 2px solid ${Colors.gray};
   border-collapse: collapse;
   color: ${Colors.darkGray};
-  margin-top: 1rem;
-  margin-bottom: 6rem;
+  margin: 1rem 0;
   width: 100%;
 `;
 
