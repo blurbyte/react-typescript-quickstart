@@ -5,6 +5,7 @@ import Overview from '../Overview';
 import ManageCounter from '../ManageCounter';
 import GettingStarted from '../GettingStarted';
 import CoreConcepts from '../CoreConcepts';
+import Contact from '../Contact';
 import Wrapper from './Wrapper';
 import MainContent from './MainContent';
 import MainContentColumn from './MainContentColumn';
@@ -24,6 +25,7 @@ class App extends React.Component {
           </MainContentColumn>
           <SideContentColumn>
             <CoreConcepts />
+            <Contact />
           </SideContentColumn>
         </MainContent>
       </Wrapper>
