@@ -23,51 +23,35 @@ class ModulesOverview extends React.Component {
           </thead>
           <tbody>
             <Table.Row>
-              <Table.Cell>
-                <strong>react</strong>, react-dom
-              </Table.Cell>
+              <Table.Cell>react, react-dom</Table.Cell>
               <Table.Cell>Reusable components for web applications</Table.Cell>
             </Table.Row>
             <Table.Row>
-              <Table.Cell>
-                <strong>typescript</strong>
-              </Table.Cell>
+              <Table.Cell>typescript</Table.Cell>
               <Table.Cell>JavaScript but with types (and more)</Table.Cell>
             </Table.Row>
             <Table.Row>
-              <Table.Cell>
-                <strong>fusebox</strong>
-              </Table.Cell>
+              <Table.Cell>fusebox</Table.Cell>
               <Table.Cell>Great bundler with simple configuration shipped with handy task manager</Table.Cell>
             </Table.Row>
             <Table.Row>
-              <Table.Cell>
-                <strong>tslint</strong>
-              </Table.Cell>
+              <Table.Cell>tslint</Table.Cell>
               <Table.Cell>Reports TypeScript and React syntax errors</Table.Cell>
             </Table.Row>
             <Table.Row>
-              <Table.Cell>
-                <strong>styled-components</strong>
-              </Table.Cell>
+              <Table.Cell>styled-components</Table.Cell>
               <Table.Cell>Scoped components CSS styles, how awesome is it?</Table.Cell>
             </Table.Row>
             <Table.Row>
-              <Table.Cell>
-                <strong>jest</strong>
-              </Table.Cell>
+              <Table.Cell>jest</Table.Cell>
               <Table.Cell>Automated test framework with built in assertion library</Table.Cell>
             </Table.Row>
             <Table.Row>
-              <Table.Cell>
-                <strong>enzyme</strong>
-              </Table.Cell>
+              <Table.Cell>enzyme</Table.Cell>
               <Table.Cell>React testing utilities</Table.Cell>
             </Table.Row>
             <Table.Row>
-              <Table.Cell>
-                <strong>prettier</strong>, lint-staged
-              </Table.Cell>
+              <Table.Cell>prettier, lint-staged</Table.Cell>
               <Table.Cell>Enforces consistent coding style</Table.Cell>
             </Table.Row>
           </tbody>
