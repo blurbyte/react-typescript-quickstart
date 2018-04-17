@@ -15,6 +15,10 @@ exports[`Button renders correctly 1`] = `
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   outline: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .c0:hover {

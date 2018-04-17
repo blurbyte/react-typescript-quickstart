@@ -14,6 +14,7 @@ const Button = styled.button`
   border-radius: 6px;
   transition: all 0.4s ease;
   outline: 0;
+  user-select: none;
 
   &:hover {
     background: rgba(40, 40, 40, 0.1);

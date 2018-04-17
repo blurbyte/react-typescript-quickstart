@@ -11,6 +11,10 @@ exports[`ProjectTitle renders correctly 1`] = `
   margin: 0;
   margin-left: 1.4rem;
   padding: 1rem 1.4rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 <p

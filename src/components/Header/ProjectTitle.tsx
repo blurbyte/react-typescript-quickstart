@@ -9,6 +9,7 @@ const ProjectTitle = styled.p`
   margin: 0;
   margin-left: 1.4rem;
   padding: 1rem 1.4rem;
+  user-select: none;
 `;
 
 export default ProjectTitle;
