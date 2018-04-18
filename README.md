@@ -18,11 +18,12 @@ For clean development environment without demo app and _styled-components_ check
 
 * Creating and testing __render props__ component — _src/components/Counter_ and _src/components/ManageCounter_
 * Implementing __compound component__ —  _src/components/TextList_ and _src/components/Table_
+* Simple responsive app layout with __css grid__ and media queries
 * CI/CD with __TravisCI__ and __Surge.sh__ — _.travis.yml_
 
 ### Getting started
 
-1. Clone the repository git clone https://github.com/blurbyte/react-typescript-quickstart.
+1. Clone the repository `git clone https://github.com/blurbyte/react-typescript-quickstart`.
 2. Install all required modules with simple `npm install` command.
 3. Start demo app in development mode `npm start`. It will build a project, start webserver and open app in a browser.
 4. All project files are placed under _/src_ folder.
