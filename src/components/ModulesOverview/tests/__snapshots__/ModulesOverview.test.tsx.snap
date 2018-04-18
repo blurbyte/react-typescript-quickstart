@@ -41,7 +41,7 @@ exports[`ModulesOverview renders correctly 1`] = `
           fusebox
         </styled.td>
         <styled.td>
-          Great bundler with simple configuration shipped with handy task manager
+          Great bundler with simple configuration and first class TypeScript support
         </styled.td>
       </styled.tr>
       <styled.tr>

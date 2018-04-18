@@ -32,7 +32,7 @@ class ModulesOverview extends React.Component {
             </Table.Row>
             <Table.Row>
               <Table.Cell>fusebox</Table.Cell>
-              <Table.Cell>Great bundler with simple configuration shipped with handy task manager</Table.Cell>
+              <Table.Cell>Great bundler with simple configuration and first class TypeScript support</Table.Cell>
             </Table.Row>
             <Table.Row>
               <Table.Cell>tslint</Table.Cell>
