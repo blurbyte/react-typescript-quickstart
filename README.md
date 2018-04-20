@@ -1,3 +1,7 @@
+![React Typescript Quickstart](https://eloriel.blob.core.windows.net/images/react-ts-quickstart.png)
+
+---
+
 # Welcome to React TypeScript Quickstart
 [![Build Status](https://travis-ci.org/blurbyte/react-typescript-quickstart.svg?branch=master)](https://travis-ci.org/blurbyte/react-typescript-quickstart)
 
