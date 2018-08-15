@@ -1,6 +1,5 @@
 {
 	"recommendations": [
-    "formulahendry.auto-close-tag",
     "EditorConfig.editorconfig",
     "eg2.tslint",
     "jpoissonnier.vscode-styled-components"
