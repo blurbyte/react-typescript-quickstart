@@ -1,4 +1,4 @@
-import styled from '@styles/styledComponents';
+import styled from 'styled-components';
 
 const Row = styled.tr`
   background: rgba(40, 40, 40, 0.02);

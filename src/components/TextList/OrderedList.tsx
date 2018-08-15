@@ -1,4 +1,5 @@
-import styled from '@styles/styledComponents';
+import styled from 'styled-components';
+
 import UnorderedList from './UnorderedList';
 
 const List = UnorderedList.withComponent('ol');

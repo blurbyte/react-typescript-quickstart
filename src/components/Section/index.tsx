@@ -1,4 +1,4 @@
-import styled from '@styles/styledComponents';
+import styled from 'styled-components';
 
 const Section = styled.section`
   grid-column: 1 / -1;

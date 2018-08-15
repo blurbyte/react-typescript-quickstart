@@ -1,7 +1,6 @@
 // Generating media templates based on device breakpoints
 
-import { css } from './styledComponents';
-import { SimpleInterpolation, InterpolationValue } from 'styled-components';
+import { css, SimpleInterpolation, InterpolationValue } from 'styled-components';
 
 export interface Devices {
   desktop: number;

@@ -1,4 +1,4 @@
-import styled from '@styles/styledComponents';
+import styled from 'styled-components';
 
 import BaseCell from './Cell';
 

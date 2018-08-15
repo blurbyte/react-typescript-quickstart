@@ -1,4 +1,5 @@
-import styled from '@styles/styledComponents';
+import styled from 'styled-components';
+
 import MainParagraph from '../MainParagraph';
 
 const Description = styled(MainParagraph)`

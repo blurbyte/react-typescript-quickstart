@@ -1,4 +1,5 @@
-import styled from '@styles/styledComponents';
+import styled from 'styled-components';
+
 import { Color } from '@styles/colors';
 
 const Headline = styled.h1`

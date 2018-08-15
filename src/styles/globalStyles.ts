@@ -1,4 +1,5 @@
-import { injectGlobal } from './styledComponents';
+import { injectGlobal } from 'styled-components';
+
 import { Color } from './colors';
 
 // tslint:disable-next-line

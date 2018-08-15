@@ -1,4 +1,5 @@
-import styled from '@styles/styledComponents';
+import styled from 'styled-components';
+
 import media from '@styles/media';
 
 const Content = styled.div`

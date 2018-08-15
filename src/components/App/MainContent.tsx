@@ -1,6 +1,6 @@
-import styled from '@styles/styledComponents';
-import media from '@styles/media';
+import styled from 'styled-components';
 
+import media from '@styles/media';
 import Content from '../Content';
 
 const Article = Content.withComponent('article');
