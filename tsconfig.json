@@ -9,7 +9,6 @@
     "importHelpers": true,
     "noEmitHelpers": true,
     "forceConsistentCasingInFileNames": true,
-    "pretty": true,
     "target": "es5",
     "jsx": "react",
     "baseUrl": "./", // Required for predefined paths

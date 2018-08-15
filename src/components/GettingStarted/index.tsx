@@ -23,7 +23,13 @@ class GettingStarted extends React.Component {
             Install <strong>Git</strong>.
           </TextList.Item>
           <TextList.Item>
-            Clone the repository <code>git clone https:{'//'}github.com/blurbyte/react-typescript-quickstart</code>.
+            Clone the repository{' '}
+            <code>
+              git clone https:
+              {'//'}
+              github.com/blurbyte/react-typescript-quickstart
+            </code>
+            .
           </TextList.Item>
           <TextList.Item>
             Install <em>React Developer Tools</em> &mdash; provides insight about virtual DOM and components props and
