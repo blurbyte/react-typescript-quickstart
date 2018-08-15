@@ -1,6 +1,6 @@
-export const enum Colors {
-  white = '#ffffff',
-  gray = '#908e89',
-  darkGray = '#444444',
-  blue = '#4a6cbb'
+export const enum Color {
+  White = '#ffffff',
+  Gray = '#908e89',
+  DarkGray = '#444444',
+  Blue = '#4a6cbb'
 }

@@ -1,5 +1,5 @@
 import styled from '@styles/styledComponents';
-import { Colors } from '@styles/colors';
+import { Color } from '@styles/colors';
 
 const Cell = styled.td`
   font-family: Helvetica, Arial, sans-serif;
@@ -7,7 +7,7 @@ const Cell = styled.td`
   padding: 1.4rem;
 
   &:first-child {
-    border-right: 1px solid ${Colors.gray};
+    border-right: 1px solid ${Color.Gray};
   }
 
   & strong {

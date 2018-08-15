@@ -1,11 +1,11 @@
 import styled from '@styles/styledComponents';
-import { Colors } from '@styles/colors';
+import { Color } from '@styles/colors';
 
 const ProjectTitle = styled.p`
   text-transform: uppercase;
   cursor: default;
   flex-shrink: 0;
-  border-left: 1px solid ${Colors.gray};
+  border-left: 1px solid ${Color.Gray};
   margin: 0;
   margin-left: 1.4rem;
   padding: 1rem 1.4rem;

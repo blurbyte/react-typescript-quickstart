@@ -1,10 +1,10 @@
 import styled from '@styles/styledComponents';
-import { Colors } from '@styles/colors';
+import { Color } from '@styles/colors';
 
 const Button = styled.button`
   background: rgba(40, 40, 40, 0.05);
   border: none;
-  color: ${Colors.blue};
+  color: ${Color.Blue};
   border: 1px solid transparent;
   font-weight: 700;
   font-size: 1.4rem;

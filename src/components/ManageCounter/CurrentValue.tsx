@@ -1,5 +1,5 @@
 import styled from '@styles/styledComponents';
-import { Colors } from '@styles/colors';
+import { Color } from '@styles/colors';
 
 const CurrentValue = styled.p`
   display: inline-flex;
@@ -9,8 +9,8 @@ const CurrentValue = styled.p`
   height: 3.6rem;
   font-size: 2.4rem;
   font-weight: 700;
-  color: ${Colors.white};
-  background: ${Colors.blue};
+  color: ${Color.White};
+  background: ${Color.Blue};
   padding: 0 1.4rem;
   border-radius: 6px;
   min-width: 8rem;

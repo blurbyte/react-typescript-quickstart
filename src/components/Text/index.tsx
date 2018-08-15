@@ -1,9 +1,9 @@
 import styled from '@styles/styledComponents';
-import { Colors } from '@styles/colors';
+import { Color } from '@styles/colors';
 
 const Text = styled.p`
   font-family: Helvetica, Arial, sans-serif;
-  color: ${Colors.darkGray};
+  color: ${Color.DarkGray};
   margin: 0.8rem 0;
 
   & strong {

@@ -1,10 +1,10 @@
 import styled from '@styles/styledComponents';
-import { Colors } from '@styles/colors';
+import { Color } from '@styles/colors';
 
 const ExternalLink = styled.a.attrs({
   target: '_blank'
 })`
-  color: ${Colors.blue};
+  color: ${Color.Blue};
   cursor: pointer;
   text-decoration: none;
   outline: none;

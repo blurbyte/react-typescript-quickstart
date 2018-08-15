@@ -1,6 +1,6 @@
 import * as React from 'react';
 import styled from '@styles/styledComponents';
-import { Colors } from '@styles/colors';
+import { Color } from '@styles/colors';
 
 const Wrapper = styled.div`
   flex-shrink: 0;
@@ -18,7 +18,7 @@ class Logo extends React.Component<LogoProps> {
   static readonly defaultProps: LogoDefaultProps = {
     width: 120,
     height: 25,
-    fill: Colors.blue
+    fill: Color.Blue
   };
 
   render() {

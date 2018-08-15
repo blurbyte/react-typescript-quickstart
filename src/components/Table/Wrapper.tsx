@@ -1,10 +1,10 @@
 import styled from '@styles/styledComponents';
-import { Colors } from '@styles/colors';
+import { Color } from '@styles/colors';
 
 const Wrapper = styled.table`
-  border-top: 2px solid ${Colors.gray};
+  border-top: 2px solid ${Color.Gray};
   border-collapse: collapse;
-  color: ${Colors.darkGray};
+  color: ${Color.DarkGray};
   margin: 1rem 0;
   width: 100%;
 `;

@@ -1,5 +1,5 @@
 import { injectGlobal } from './styledComponents';
-import { Colors } from './colors';
+import { Color } from './colors';
 
 // tslint:disable-next-line
 injectGlobal`
@@ -10,8 +10,8 @@ injectGlobal`
   }
 
   body {
-    background: ${Colors.white};
-    color: ${Colors.gray};
+    background: ${Color.White};
+    color: ${Color.Gray};
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     line-height: 1.4;
     font-size: 1.4rem;
