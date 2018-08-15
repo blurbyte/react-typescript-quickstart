@@ -26,7 +26,8 @@ exports[`CoreConcepts renders correctly 1`] = `
       .
     </Styled(styled.li)>
     <Styled(styled.li)>
-      Clone the repository 
+      Clone the repository
+       
       <code>
         git clone https:
         //
